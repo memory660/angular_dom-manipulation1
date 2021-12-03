@@ -1,0 +1,9 @@
+<p>method2-structure works!</p>
+
+<ng-container #viewcontainer></ng-container>
+
+<ng-template #pchild>
+  <app-child #child></app-child>
+</ng-template>
+
+<button (click)="removeChild()">remove child</button>

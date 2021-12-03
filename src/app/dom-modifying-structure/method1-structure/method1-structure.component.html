@@ -1,0 +1,16 @@
+<p>method1-structure works!</p>
+<br />
+1. Template Reference — Référence d'un élément DOM particulier.<br />
+2. ElementRef — Aide à accéder aux éléments du DOM.<br />
+3. @ViewChildren() — Retourne les éléments ou les directives spécifiés dans le
+viewDOM comme QueryList.<br />
+4. AfterViewChecked — Il est invoqué après que le détecteur de changement par
+défaut a terminé un cycle de vérification des changements.<br />
+5. Renderer — Rend l'accès direct au DOM plus sûr.<br />
+6. QueryList – Type de retour. Il s'agit simplement d'une liste d'éléments.
+Angular met à jour QueryList lorsqu'il ajoute ou supprime des éléments de la
+liste. Elle est initialisée seulement avant le ngAfterViewInit().<br />
+<br />
+
+<app-child #child></app-child>
+<button (click)="change()">remove</button>
