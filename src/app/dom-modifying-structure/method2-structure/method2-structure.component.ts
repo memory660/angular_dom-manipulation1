@@ -28,11 +28,11 @@ export class Method2StructureComponent implements OnInit {
   }
 
   ngAfterViewInit() {
-    this.viewcontainer.createEmbeddedView(this.template);
+    this.viewcontainer.createEmbeddedView(this.template); // ajoute le composant child dans le container
   }
 
   removeChild() {
-    this.viewcontainer.remove();
+    this.viewcontainer.remove(); // supprime le contenu du container
   }
 
   ngOnInit() {}
